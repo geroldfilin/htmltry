@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.marquee{
+width:100%;
+white-space:nowrap;
+overflow:hidden;
+position: absolute;
+top: 1px;
+
+}
+
+.marquee span {
+color:#ffd500;
+font-size:25px;
+font-weight: bold;
+display:inline-block;
+padding-left:100%;
+-webkit-animation: marquee 20s infinite linear;
+animation: marquee 20s infinite linear;
+}
+.marquee span > img {
+  width: 25px;
+  height: 25px;
+}
+@-webkit-keyframes marquee {
+0%{-webkit-transform: translate(0, 0);}
+100%{-webkit-transform: translate(-100%, 0);}
+}
+@keyframes marquee{
+0%{transform: translate(0, 0);}
+100%{transform: translate(-100%, 0)}
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  background: url("../img/header.jpg" );
+  background-size: cover;
+
+}
+header > h1 {
+
+  padding-top: 50px;
+
+  text-align: center;
+  height: 80px;
+  color: #2c2352;
+
+
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+
+
+
+}
+nav>ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+
+
+
+
+}
+nav > ul >li {
+  display: block;
+   width: 100%;
+   height: 40px;
+   background: rgb(255,203,30);
+   background: rgb(12,228,171);
+  background: linear-gradient(180deg, rgba(12,228,171,1) 0%, rgba(230,231,13,0.981127485173757) 50%, rgba(147,158,0,1) 100%);
+   text-transform:uppercase;
+   margin: 0;
+   line-height: 40px;
+   text-align: center;
+   border-right: 5px solid #babbbd;
+   border-left: 5px solid #babbbd;
+   transition: all 0.3s ease;
+   box-shadow: 1px 5px 10px -5px black;
+
+}
+nav> ul>li>a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+
+}
+div {
+  width: 100%;
+  height: auto;
+
+}
+div>img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  object-fit: contain;
+
+
+}
+
+aside {
+  position: absolute;
+  display: block;
+  right: 1%;
+  top: 200px;
+  width: 20%;
+  height: 70%;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+border-radius: 50px;
+border: 10px solid  grey;
+
+}
+.dropbtn {
+  display: none;
+  position: relative;
+
+    list-style-type: none;
+    
+
+
+}
+
+.dropbtn > li {
+  border: 2px solid #babbbd;
+    background: linear-gradient(180deg, rgba(12,228,171,1) 0%, rgba(230,231,13,0.981127485173757) 50%, rgba(147,158,0,1) 100%);
+
+}
+.mainbtn:hover .dropbtn { display: block;
+
+}
+
+
+
+
+footer {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+  background: rgb(238,174,202);
+  background: linear-gradient(180deg, rgba(147,158,0,1 ) 0%, rgba(230,231,13,0.981127485173757) 50%, rgba(12,228,171,1) 100%);
+  text-align: center;
+  padding-top: 30px;
+   font-size: 1.5em;
+
+}

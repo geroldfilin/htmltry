@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.forma1 {
+
+  background-image: url(https://klike.net/uploads/posts/2020-09/1599896421_6.jpg);
+  height: 50vh;
+  width: 35%;
+  text-align: center;
+  border: 7px dotted blue;
+  border-radius: 20px 50%;
+  opacity: 85%;
+  padding: 50px;
+  display: table;
+  float: left;
+  margin-left: 10%;
+
+  }
+.forma2 {
+  background-image: url(https://klike.net/uploads/posts/2020-09/1599896421_6.jpg);
+  height: 50vh;
+  width: 35%;
+  text-align: center;
+  border: 7px dotted blue;
+  border-radius: 50% 20px;
+  opacity: 85%;
+  padding: 50px;
+  display: table;
+  float: left;
+
+}
+.main_text {
+  background: blue;
+  text-align: center;
+  color: green;
+  font-size: 200%;
+  font-style: italic;
+  font-weight: normal;
+  font-family:"Lobster";
+  text-transform: capitalize;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+
+/* body {
+  background-color: #7f9ab3;
+  color: #3c3e40;
+  background-image: url('https://klike.net/uploads/posts/2020-09/1599896421_6.jpg');
+  background-repeat:repeat;
+  background: #3c3e40 url('https://klike.net/uploads/posts/2020-09/1599896421_6.jpg') repeat left top;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+i {
+  color: purple;
+  }
+  p:last-of-type {
+    text-decoration: line-through;
+  }
+.main-text
+  {
+    color: green;
+  }
+  #some_text::after {
+    content: '12344123';
+    color: purple;
+    text-decoration: line-through;
+  }
+  p.main_link::first-line   {
+    color: green;
+  }
+#text-in-p {
+  color: blue;
+}
+div b, div i {
+  color: yellow;
+}
+.main_link {
+  color: blue;
+  text-decoration: underline;
+}
+.main_link:hover {
+  color: red;
+  text-decoration: overline;
+  text-decoration-color: black;
+  cursor: pointer;
+}
+
+.main_link:active {
+  text-decoration: line-through;
+}
+.main_link:visited {
+    color: grey;
+  }
+  p.text:not(:empty) {
+    color: grey;
+  }
+  p.text:not(:empty)::after {
+    color: blue;
+    content: attr(title);
+  }
+input
+{    color: blue ;
+}
+input:focus {
+  color:red;
+}  */

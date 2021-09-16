@@ -1,0 +1,37 @@
+.wrap {
+  margin: 0;
+  text-align: center;
+
+}
+
+header >h1 {
+    margin: 0 auto;
+}
+.content {
+
+  width:  80%;
+    background-image: url("../img/pchela.jpg");
+    background-size: cover;
+  float: left;
+}
+
+aside  {
+
+  word-wrap:break-word;
+  background: grey;
+  width: 20%;
+  float: left;
+  overflow:hidden;
+}
+header {
+
+  background: green;
+}
+footer {
+  background: blue;
+  clear: both;
+
+}
+.content, aside {
+  height: 300px;
+}

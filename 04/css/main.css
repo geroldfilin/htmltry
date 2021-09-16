@@ -65,6 +65,7 @@ header {
 
 
 
+
 }
 #minc{
   width: 200px;
@@ -128,9 +129,9 @@ header {
 
 
 .flex {
-  margin: 450px auto;
+  margin: 200px auto;
   display: flex;
-  width: 100%;
+  width: 90%;
 
 }
 .flex > div {
@@ -154,12 +155,52 @@ header {
   transition: 1s;
   color: green;
 }
-.ss:hover {
+  .ss:hover .ssilka {
   transition: 1s;
-  color: coral;
+  color:coral;
 
-}
+  }
+ .ss:hover .lineunder {
+   transition: 1s;
+   background: coral;
+ }
+
 .flex > div > p {
   padding: 15px;
   text-align: center;
+}
+
+.lineunder  {
+  margin: 0 25%;
+  display: inline-block;
+  border-style: none;
+  width: 50%;
+  height: 3px;
+  border-radius:  1px;
+  transition: 1s;
+  background: green;
+}
+
+
+
+.Zagolovok {
+  color: grey;
+  margin: 0 auto;
+  width: 70%;
+  height: 300px;
+  text-align: center;
+}
+.Zagolovok h2 {
+   font-size: 2em;
+}
+
+.pikcha {
+  margin: 0;
+  padding: 0;
+
+}
+.pikcha img{
+  width: 70%;
+  height: auto;
+  margin: 0 15%;
 }

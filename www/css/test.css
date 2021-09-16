@@ -1,0 +1,20 @@
+.pteg {
+  color: blue;
+  background: yellow;
+  text-align: center;
+  padding: 20px;
+}
+p::first-letter {
+  color: red;
+  text-decoration: underline;
+
+}
+a:active {
+  color: green;
+}
+:checked {
+  color black;
+}
+:disabled {
+  color: green;
+}

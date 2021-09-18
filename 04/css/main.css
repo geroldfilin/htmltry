@@ -15,6 +15,7 @@
 }
 .dal  {
 
+
   width: 60%;
   margin 0 auto;
   position: absolute;
@@ -216,14 +217,14 @@ header {
    float: left;
    color: #cf8e70;
    text-align: center;
-   padding: 70px 150px;
+   padding: 70px 5%;
    font-size: 1.25em;
 
  }
  .line  div:nth-child(2) {
    display: block;
    float: right;
-   padding: 60px 150px;
+   padding: 60px 5%;
  }
 .line > div > span:first-child {
   font-size: 1.25em;
@@ -240,4 +241,97 @@ header {
   text-decoration: none;
   border-radius: 10px;
   color: white;
+}
+.string {
+margin: 0 auto;
+padding: 5%;
+width: 90%;
+
+}
+.string ul {
+  width: 70%;
+  margin-left: 200px;
+
+}
+.string ul li {
+  display: inline-block;
+}
+.string ul li a {
+  transition: 1s;
+  text-decoration: none;
+  color: coral;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  font-size: 1.5em;
+  margin: 0 5px;
+  border: 1px solid grey;
+}
+.string ul li a:hover {
+  transition: 1s; background: yellow;
+}
+.pica {
+
+  display: flex;
+  margin: 0 200px;
+  flex-wrap: wrap;
+}
+.pica  div {
+  position: relative;
+
+ }
+.pica img {
+  transition: 2s;
+  opacity: 1;
+
+
+}
+.pica i {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  z-index: 1;
+  display: block;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+
+
+}
+.pica span {
+  position: absolute;
+  bottom: 90px;
+  left: 100px;
+  z-index: 1;
+  color: khaki;
+}
+.cont {
+  margin: 15px;
+  background-image: url("../img/3.jpg");
+
+
+
+}
+.pica div i:hover {
+  transition: 1s;
+  color: coral;
+
+}
+.pica div img:hover {
+  transition: 2s;
+  opacity: 0.2;
+  transition: 1s;
+  box-shadow: 10px 15px 5px 5px red;
+
+}
+.chel {
+  margin: 30px auto;
+  width: 100%;
+  height: 700px;
+}
+.chel img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
